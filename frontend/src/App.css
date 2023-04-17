@@ -1,0 +1,60 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(233, 233, 233, 0.384);
+}
+.title {
+    padding: 0 0 10px 0;
+}
+.contact-list-outer-box {
+    margin: 30px;
+    padding: 30px;
+    background: #fff;   
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(180 180 180 / 58%);
+    -moz-box-shadow: 1px 1px 5px 0px rgb(180 180 180 / 58%);
+    box-shadow: 1px 1px 5px 0px rgb(180 180 180 / 58%);
+    border-radius: 8px;
+}
+.search-box input{
+    padding: 5px 10px;
+    margin: 0 0 15px 0;
+    outline: none;
+    border: 1px solid gray;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+thead th{
+    font-size: 16px;
+}
+td, th{
+    padding: 12px 20px !important;
+}
+.add-new{
+    border: 1px solid rgb(197, 197, 197);
+    background: none;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.add-contact-form {
+    background: #eaeaea85;
+    padding: 15px;
+    border-radius: 8px;
+}
+input{
+    padding: 5px 15px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 224, 224);
+}
+input:focus{
+    border: 1px solid rgb(11, 99, 182);
+    outline: none;
+}
